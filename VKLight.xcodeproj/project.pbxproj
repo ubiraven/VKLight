@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BA208C1DE5F0B9005412F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA208B1DE5F0B9005412F3 /* AppDelegate.swift */; };
+		84BA208E1DE5F0B9005412F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA208D1DE5F0B9005412F3 /* ViewController.swift */; };
+		84BA20911DE5F0B9005412F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA208F1DE5F0B9005412F3 /* Main.storyboard */; };
+		84BA20941DE5F0B9005412F3 /* VKLight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84BA20921DE5F0B9005412F3 /* VKLight.xcdatamodeld */; };
+		84BA20961DE5F0B9005412F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BA20951DE5F0B9005412F3 /* Assets.xcassets */; };
+		84BA20991DE5F0B9005412F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA20971DE5F0B9005412F3 /* LaunchScreen.storyboard */; };
+		84BA20A41DE5F0B9005412F3 /* VKLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA20A31DE5F0B9005412F3 /* VKLightTests.swift */; };
+		84BA20AF1DE5F0B9005412F3 /* VKLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA20AE1DE5F0B9005412F3 /* VKLightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BA20A01DE5F0B9005412F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BA20801DE5F0B8005412F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BA20871DE5F0B8005412F3;
+			remoteInfo = VKLight;
+		};
+		84BA20AB1DE5F0B9005412F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BA20801DE5F0B8005412F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BA20871DE5F0B8005412F3;
+			remoteInfo = VKLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84BA20881DE5F0B9005412F3 /* VKLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BA208B1DE5F0B9005412F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84BA208D1DE5F0B9005412F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84BA20901DE5F0B9005412F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BA20931DE5F0B9005412F3 /* VKLight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKLight.xcdatamodel; sourceTree = "<group>"; };
+		84BA20951DE5F0B9005412F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84BA20981DE5F0B9005412F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84BA209A1DE5F0B9005412F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA209F1DE5F0B9005412F3 /* VKLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BA20A31DE5F0B9005412F3 /* VKLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLightTests.swift; sourceTree = "<group>"; };
+		84BA20A51DE5F0B9005412F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA20AA1DE5F0B9005412F3 /* VKLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BA20AE1DE5F0B9005412F3 /* VKLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLightUITests.swift; sourceTree = "<group>"; };
+		84BA20B01DE5F0B9005412F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BA20851DE5F0B8005412F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BA209C1DE5F0B9005412F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BA20A71DE5F0B9005412F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BA207F1DE5F0B8005412F3 = {
+			isa = PBXGroup;
+			children = (
+				84BA208A1DE5F0B9005412F3 /* VKLight */,
+				84BA20A21DE5F0B9005412F3 /* VKLightTests */,
+				84BA20AD1DE5F0B9005412F3 /* VKLightUITests */,
+				84BA20891DE5F0B9005412F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BA20891DE5F0B9005412F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BA20881DE5F0B9005412F3 /* VKLight.app */,
+				84BA209F1DE5F0B9005412F3 /* VKLightTests.xctest */,
+				84BA20AA1DE5F0B9005412F3 /* VKLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BA208A1DE5F0B9005412F3 /* VKLight */ = {
+			isa = PBXGroup;
+			children = (
+				84BA208B1DE5F0B9005412F3 /* AppDelegate.swift */,
+				84BA208D1DE5F0B9005412F3 /* ViewController.swift */,
+				84BA208F1DE5F0B9005412F3 /* Main.storyboard */,
+				84BA20951DE5F0B9005412F3 /* Assets.xcassets */,
+				84BA20971DE5F0B9005412F3 /* LaunchScreen.storyboard */,
+				84BA209A1DE5F0B9005412F3 /* Info.plist */,
+				84BA20921DE5F0B9005412F3 /* VKLight.xcdatamodeld */,
+			);
+			path = VKLight;
+			sourceTree = "<group>";
+		};
+		84BA20A21DE5F0B9005412F3 /* VKLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BA20A31DE5F0B9005412F3 /* VKLightTests.swift */,
+				84BA20A51DE5F0B9005412F3 /* Info.plist */,
+			);
+			path = VKLightTests;
+			sourceTree = "<group>";
+		};
+		84BA20AD1DE5F0B9005412F3 /* VKLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84BA20AE1DE5F0B9005412F3 /* VKLightUITests.swift */,
+				84BA20B01DE5F0B9005412F3 /* Info.plist */,
+			);
+			path = VKLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BA20871DE5F0B8005412F3 /* VKLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BA20B31DE5F0B9005412F3 /* Build configuration list for PBXNativeTarget "VKLight" */;
+			buildPhases = (
+				84BA20841DE5F0B8005412F3 /* Sources */,
+				84BA20851DE5F0B8005412F3 /* Frameworks */,
+				84BA20861DE5F0B8005412F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKLight;
+			productName = VKLight;
+			productReference = 84BA20881DE5F0B9005412F3 /* VKLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BA209E1DE5F0B9005412F3 /* VKLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BA20B61DE5F0B9005412F3 /* Build configuration list for PBXNativeTarget "VKLightTests" */;
+			buildPhases = (
+				84BA209B1DE5F0B9005412F3 /* Sources */,
+				84BA209C1DE5F0B9005412F3 /* Frameworks */,
+				84BA209D1DE5F0B9005412F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BA20A11DE5F0B9005412F3 /* PBXTargetDependency */,
+			);
+			name = VKLightTests;
+			productName = VKLightTests;
+			productReference = 84BA209F1DE5F0B9005412F3 /* VKLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84BA20A91DE5F0B9005412F3 /* VKLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BA20B91DE5F0B9005412F3 /* Build configuration list for PBXNativeTarget "VKLightUITests" */;
+			buildPhases = (
+				84BA20A61DE5F0B9005412F3 /* Sources */,
+				84BA20A71DE5F0B9005412F3 /* Frameworks */,
+				84BA20A81DE5F0B9005412F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BA20AC1DE5F0B9005412F3 /* PBXTargetDependency */,
+			);
+			name = VKLightUITests;
+			productName = VKLightUITests;
+			productReference = 84BA20AA1DE5F0B9005412F3 /* VKLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BA20801DE5F0B8005412F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ArtemyevSergey;
+				TargetAttributes = {
+					84BA20871DE5F0B8005412F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T65LJ52QK7;
+						ProvisioningStyle = Automatic;
+					};
+					84BA209E1DE5F0B9005412F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T65LJ52QK7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84BA20871DE5F0B8005412F3;
+					};
+					84BA20A91DE5F0B9005412F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T65LJ52QK7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84BA20871DE5F0B8005412F3;
+					};
+				};
+			};
+			buildConfigurationList = 84BA20831DE5F0B8005412F3 /* Build configuration list for PBXProject "VKLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BA207F1DE5F0B8005412F3;
+			productRefGroup = 84BA20891DE5F0B9005412F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BA20871DE5F0B8005412F3 /* VKLight */,
+				84BA209E1DE5F0B9005412F3 /* VKLightTests */,
+				84BA20A91DE5F0B9005412F3 /* VKLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BA20861DE5F0B8005412F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA20991DE5F0B9005412F3 /* LaunchScreen.storyboard in Resources */,
+				84BA20961DE5F0B9005412F3 /* Assets.xcassets in Resources */,
+				84BA20911DE5F0B9005412F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BA209D1DE5F0B9005412F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BA20A81DE5F0B9005412F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BA20841DE5F0B8005412F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA208E1DE5F0B9005412F3 /* ViewController.swift in Sources */,
+				84BA208C1DE5F0B9005412F3 /* AppDelegate.swift in Sources */,
+				84BA20941DE5F0B9005412F3 /* VKLight.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BA209B1DE5F0B9005412F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA20A41DE5F0B9005412F3 /* VKLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BA20A61DE5F0B9005412F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA20AF1DE5F0B9005412F3 /* VKLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BA20A11DE5F0B9005412F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BA20871DE5F0B8005412F3 /* VKLight */;
+			targetProxy = 84BA20A01DE5F0B9005412F3 /* PBXContainerItemProxy */;
+		};
+		84BA20AC1DE5F0B9005412F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BA20871DE5F0B8005412F3 /* VKLight */;
+			targetProxy = 84BA20AB1DE5F0B9005412F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BA208F1DE5F0B9005412F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BA20901DE5F0B9005412F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BA20971DE5F0B9005412F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BA20981DE5F0B9005412F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BA20B11DE5F0B9005412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BA20B21DE5F0B9005412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BA20B41DE5F0B9005412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T65LJ52QK7;
+				INFOPLIST_FILE = VKLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ArtemyevSergey.VKLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84BA20B51DE5F0B9005412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T65LJ52QK7;
+				INFOPLIST_FILE = VKLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ArtemyevSergey.VKLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84BA20B71DE5F0B9005412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T65LJ52QK7;
+				INFOPLIST_FILE = VKLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ArtemyevSergey.VKLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKLight.app/VKLight";
+			};
+			name = Debug;
+		};
+		84BA20B81DE5F0B9005412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T65LJ52QK7;
+				INFOPLIST_FILE = VKLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ArtemyevSergey.VKLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKLight.app/VKLight";
+			};
+			name = Release;
+		};
+		84BA20BA1DE5F0B9005412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T65LJ52QK7;
+				INFOPLIST_FILE = VKLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ArtemyevSergey.VKLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VKLight;
+			};
+			name = Debug;
+		};
+		84BA20BB1DE5F0B9005412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T65LJ52QK7;
+				INFOPLIST_FILE = VKLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ArtemyevSergey.VKLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VKLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BA20831DE5F0B8005412F3 /* Build configuration list for PBXProject "VKLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BA20B11DE5F0B9005412F3 /* Debug */,
+				84BA20B21DE5F0B9005412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BA20B31DE5F0B9005412F3 /* Build configuration list for PBXNativeTarget "VKLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BA20B41DE5F0B9005412F3 /* Debug */,
+				84BA20B51DE5F0B9005412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84BA20B61DE5F0B9005412F3 /* Build configuration list for PBXNativeTarget "VKLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BA20B71DE5F0B9005412F3 /* Debug */,
+				84BA20B81DE5F0B9005412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84BA20B91DE5F0B9005412F3 /* Build configuration list for PBXNativeTarget "VKLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BA20BA1DE5F0B9005412F3 /* Debug */,
+				84BA20BB1DE5F0B9005412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84BA20921DE5F0B9005412F3 /* VKLight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84BA20931DE5F0B9005412F3 /* VKLight.xcdatamodel */,
+			);
+			currentVersion = 84BA20931DE5F0B9005412F3 /* VKLight.xcdatamodel */;
+			path = VKLight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84BA20801DE5F0B8005412F3 /* Project object */;
+}
