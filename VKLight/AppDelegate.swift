@@ -13,7 +13,10 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    //менеджеры сети и запросов-ответов к VK API
+    let afNetworkingManager = AFHTTPRequestOperationManager()
+    lazy var vkRequestsManager: VKRequestSerializer = VKRequestSerializer(manager: self.afNetworkingManager)
+    lazy var vkResponseManager: VKResponseSerializer = VKResponseSerializer()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
